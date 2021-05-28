@@ -1,0 +1,43 @@
+@import "~element-theme-default";
+
+// 导入项目 components 组件 scss
+@import "../../../components/scss/index.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+
+    .app-content {
+        width: 100%;
+        margin: auto;
+        max-width: 1200px;
+        min-height: calc(100vh - 71px);
+
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        display: flex;
+
+        .login-div {
+            width: 390px;
+
+            .title {
+                margin: 0;
+                padding-left: 80px;
+                margin-bottom: 30px;
+            }
+
+            .other {
+                padding-left: 80px;
+
+                .feishu {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}
